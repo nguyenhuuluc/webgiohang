@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xưởng mộc giá tốt|xuongmotgiatot</title>
+    <link rel="stylesheet" href="./css/SanPham.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 logo">
+                    <img src="./AnhCat/logo.png" alt="">
+                </div>
+                <div class="col-md-8">
+                    <ul id="nav_main">
+                        <li><a href="./Trang_Chu.html">Trang chủ</a></li>
+                        <li><a href="./GioiThieu.html">Giới thiệu</a></li>
+                        <li class="active"><a href="">Sản phẩm</a></li>
+                        <li><a href="./Tin_Tuc.html">Tin tức</a></li>
+                        <li><a href="./DoiTac.html">Đối tác</a></li>
+                        <li><a href="./LienHe.html">Liên hệ</a></li>
+                        <li><a id="turnon">
+                            Giỏ hàng
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span id="quantity" class="soluong" num="0">0</span>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <img src="./san-pham/banner-SANPHAM.jpg" alt="">
+        <div class="banner-content">
+            <!-- <div class="box">
+                <h3>Trải nghiệm</h3>
+                <p>Không gian hiện đại</p>
+                <button class="btn">Mua ngay</button>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="living-room mt-5">
+        <div class="container">
+            <div class="title">
+                <h4 class="title-border">Phòng khách</h4>
+                <p><a href="#">Xem tất cả</a></p>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product">
+                        <div class="product-item">
+                            <img src="./AnhCat/san-pham/phong-khach-ban-uong-nuoc.png" alt="">
+                        </div>
+                        <h3 class="product-title">Bàn uống nước</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(Size vừa, nâu đậm)</p>
+                            <p><span data-value="8999000" class="spanpd">8.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./AnhCat/san-pham/phong-khach-ban-uong-nuoc-2.png" alt="">
+                        <h3 class="product-title">Bàn uống nước 2</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(Size vừa, nâu vân gỗ)</p>
+                            <p><span data-value="3999000" class="spanpd">3.999.000 VND</span></p>
+                            <span class="addPrd mb-5">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./AnhCat/san-pham/phong-khach-ke-ti-vi.png" alt="">
+                        <h3 class="product-title">Kệ TV</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(4 ngăn, gỗ lim)</p>
+                            <p><span data-value="12999000" class="spanpd">12.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./AnhCat/san-pham/phong-khach-ke-de-do.png" alt="">
+                        <h3 class="product-title">Kệ để đồ</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(4 ngăn, trắng gỗ)</p>
+                            <p><span data-value="2499000" class="spanpd">2.499.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="living-room mt-5">
+        <div class="container">
+            <div class="title">
+                <h4 class="title-border">Phòng ngủ</h4>
+                <p><a href="#">Xem tất cả</a></p>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./AnhCat/san-pham/phong-ngu/giuong-chau-au.png" alt="">
+                        <h3 class="product-title">Giường châu âu</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(Size vừa, trắng sữa)</p>
+                            <p><span data-value="8999000" class="spanpd">8.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./AnhCat/san-pham/phong-ngu/giuong-ngu.png" alt="">
+                        <h3 class="product-title">Giường ngủ</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(Size vừa, nâu vân gỗ)</p>
+                            <p><span data-value="3999000" class="spanpd">3.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./AnhCat/san-pham/phong-ngu/ke-dau-giuong.png" alt="">
+                        <h3 class="product-title">Kệ đầu giường</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(2 ngăn, gỗ lim)</p>
+                            <p><span data-value="12999000" class="spanpd">12.99.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./AnhCat/san-pham/phong-ngu/tu-quan-ao.png" alt="">
+                        <h3 class="product-title">Tủ quần ảo</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(4 ngăn, trắng gỗ)</p>
+                            <p><span data-value="12999000" class="spanpd">12.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="living-room mt-5">
+        <div class="container">
+            <div class="title">
+                <h4 class="title-border">Phòng bếp</h4>
+                <p><a href="#">Xem tất cả</a></p>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/ban-an-6.png" alt="">
+                        <h3 class="product-title">Bàn ăn 6</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(Size vừa, trắng sữa)</p>
+                            <p><span data-value="8999000" class="spanpd">8.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/ban-tra.png" alt="">
+                        <h3 class="product-title">Bàn trà</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(Size vừa, nâu vân gỗ)</p>
+                            <p><span data-value="3999000" class="spanpd">3.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/ban-an-4.png" alt="">
+                        <h3 class="product-title">Bàn ăn 4</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(2 ngăn, gỗ lim)</p>
+                            <p><span data-value="12999000" class="spanpd">12.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/ban-an-8.png" alt="">
+                        <h3 class="product-title">Bàn ăn 8</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(4 ngăn, trắng gỗ)</p>
+                            <p><span data-value="12499000" class="spanpd">12.499.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="living-room mt-5">
+        <div class="container">
+            <div class="title">
+                <h4 class="title-border">Phòng tắm</h4>
+                <p><a href="#">Xem tất cả</a></p>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/bon-rua-mat.png" alt="">
+                        <h3 class="product-title">Bồn rửa mặt</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(Size vừa, trắng sữa)</p>
+                            <p><span data-value="8999000" class="spanpd">8.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/bon-rua-tay.png" alt="">
+                        <h3 class="product-title">Bồn rửa tay</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(Size vừa, nâu vân gỗ)</p>
+                            <p><span data-value="3999000" class="spanpd">3.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/bon-rua-2.png" alt="">
+                        <h3 class="product-title">Bồn rửa 2</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(2 ngăn, gỗ lim)</p>
+                            <p><span data-value="12999000" class="spanpd">12.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/tu-am-tuong.png" alt="">
+                        <h3 class="product-title">Tủ âm tường</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(4 ngăn, trắng gỗ)</p>
+                            <p><span data-value="12499000" class="spanpd">12.499.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="living-room mt-5">
+        <div class="container">
+            <div class="title">
+                <h4 class="title-border">Trẻ em</h4>
+                <p><a href="#">Xem tất cả</a></p>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/ban-hoc.png" alt="">
+                        <h3 class="product-title">Bàn học</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(Size vừa, trắng sữa)</p>
+                            <p><span data-value="8999000" class="spanpd">8.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/giuong-tang.png" alt="">
+                        <h3 class="product-title">Giường tầng</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(Size vừa, nâu vân gỗ)</p>
+                            <p><span data-value="3999000" class="spanpd">3.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/giuong-tang-2.png" alt="">
+                        <h3 class="product-title">Giường tầng 2</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(2 ngăn, gỗ lim)</p>
+                            <p><span data-value="12999000" class="spanpd">12.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/cui-tre-em.png" alt="">
+                        <h3 class="product-title">Cũi trẻ em</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(4 ngăn, trắng gỗ)</p>
+                            <p><span data-value="12499000" class="spanpd">12.499.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="living-room mt-5">
+        <div class="container">
+            <div class="title">
+                <h4 class="title-border">Văn phòng</h4>
+                <p><a href="#">Xem tất cả</a></p>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/ghe-van-phong.png" alt="">
+                        <h3 class="product-title">Ghế văn phòng</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(Size vừa, trắng sữa)</p>
+                            <p><span data-value="8999000" class="spanpd">8.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/ban-lam-viec.png" alt="">
+                        <h3 class="product-title">Bàn uống nước</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(Size vừa, nâu vân gỗ)</p>
+                            <p><span data-value="3999000" class="spanpd">3.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/ban-lam-viec-2.png" alt="">
+                        <h3 class="product-title">Bàn làm việc 2</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(2 ngăn, gỗ lim)</p>
+                            <p><span data-value="12999000" class="spanpd">12.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/gia-sach.png" alt="">
+                        <h3 class="product-title">Giá sách</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(4 ngăn, trắng gỗ)</p>
+                            <p><span data-value="12499000" class="spanpd">12.499.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="living-room mt-5">
+        <div class="container">
+            <div class="title">
+                <h4 class="title-border">Cầu thang</h4>
+                <p><a href="#">Xem tất cả</a></p>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/cau-thang-1.png" alt="">
+                        <h3 class="product-title">Cầu thang 1</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(Size vừa, trắng sữa)</p>
+                            <p><span data-value="8999000" class="spanpd">8.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/cau-thang-2.png" alt="">
+                        <h3 class="product-title">Cầu thang 2</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(Size vừa, nâu vân gỗ)</p>
+                            <p><span data-value="3999000" class="spanpd">3.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/cau-thang-3.png" alt="">
+                        <h3 class="product-title">Cầu thang 3</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(2 ngăn, gỗ lim)</p>
+                            <p><span data-value="12999000" class="spanpd">12.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/cau-thang-4.png" alt="">
+                        <h3 class="product-title">Cầu thang 4</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(4 ngăn, trắng gỗ)</p>
+                            <p><span data-value="12499000" class="spanpd">12.499.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="living-room mt-5 mb-5">
+        <div class="container">
+            <div class="title">
+                <h4 class="title-border">Trang trí</h4>
+                <p><a href="#">Xem tất cả</a></p>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/guong-1.png" alt="">
+                        <h3 class="product-title">Gương 1</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(Size vừa, trắng sữa)</p>
+                            <p><span data-value="8999000" class="spanpd">8.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/guong-2.png" alt="">
+                        <h3 class="product-title">Gương 2</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(Size vừa, nâu vân gỗ)</p>
+                            <p><span data-value="3999000" class="spanpd">3.999.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/ghe-don.png" alt="">
+                        <h3 class="product-title">Ghế đơn</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(2 ngăn, gỗ lim)</p>
+                            <p><span data-value="399000" class="spanpd">399.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product">
+                        <img src="./san-pham/den-chum.png" alt="">
+                        <h3 class="product-title">Đèn chùm</h3>
+                        <div class="product-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-content">
+                            <p>(4 ngăn, trắng gỗ)</p>
+                            <p><span data-value="12499000" class="spanpd">12.499.000 VND</span></p>
+                            <span class="addPrd">Thêm vào giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Cart-box" class="miniCart">
+        <div class="miniCart-container">
+            <div class="miniCart-header">
+                <div class="miniCart-title">GIỎ HÀNG CỦA BẠN</div>
+                <button id="turnoff"  class="miniCart-closeBtn">
+                    <svg class="icon_root__7i1Fo" viewBox="0 0 20 20" opacity="1"><path d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z" fill="currentColor"></path></svg>
+                </button>
+            </div>
+            <div class="miniCart-body">
+                <div class="miniCart-item">
+                    <div class="cartItem-img">
+                       <!-- <img src="./san-pham/den-chum.png" alt="">
+                        <button>
+                            <i class="fa-solid fa-xmark"></i>   
+                        </button> -->
+                    </div>
+                    <div class="cartItem-box">
+                        <div class="cartItem-boxInfo">
+                            <h3 class="cartItem-infoName"></h3>
+                            <div class="cartItem-infoPrice">
+                                <p class="cartItem-newPrice" data-value="1000"></p>
+                            </div>
+                        </div>
+                        <div class="cartItem-itemOption">
+                            <div class="cartItem-btnQuantity">  
+                                <!-- <button><i class="fa-solid fa-minus"></i></button> -->
+                                <p class="quantity-text"></p>
+                                <!-- <button><i class="fa-solid fa-plus"></i></button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="miniCart-footer">
+                <div class="miniCart-total">
+                    <span class="miniCart-text">TỔNG TIỀN:</span>
+                    <span class="miniCart-price">0 ₫</span>
+                </div>
+                <button>
+                    <span>THANH TOÁN NGAY</span>
+                    <svg class="miniCart_ctaBtnRightArrow__5VYQo" viewBox="0 0 12 6" opacity="1" data-projection-id="59"><path fill="currentColor" d="M0.125 2.70484C0.0416667 2.77556 0 2.87279 0 2.99654C0 3.12029 0.0416667 3.22636 0.125 3.31476C0.229167 3.38547 0.354167 3.42083 0.5 3.42083H10.2812L8.15625 5.25058C7.90625 5.44504 7.89583 5.64835 8.125 5.86049C8.375 6.05496 8.61458 6.04612 8.84375 5.83397L11.8438 3.28824C11.9063 3.25288 11.9479 3.20869 11.9688 3.15565C11.9896 3.10261 12 3.04958 12 2.99654C12 2.94351 11.9896 2.89047 11.9688 2.83743C11.9479 2.7844 11.9063 2.7402 11.8438 2.70484L8.84375 0.159108C8.61458 -0.0530361 8.375 -0.0530361 8.125 0.159108C7.89583 0.353574 7.90625 0.54804 8.15625 0.742506L10.2812 2.57225H0.5C0.354167 2.57225 0.229167 2.61645 0.125 2.70484Z"></path></svg>
+                </button>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer_main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Thông tin chung</h5>
+                        <h4>Công ty TNHH Hoàng Hoan</h4>
+                        <ul class="footer_item-a">
+                            <li>
+                                <a href="#">
+                                    <i class="item fa-solid fa-phone"></i>
+                                    0999.999.999
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="item fa-regular fa-envelope"></i>
+                                    Cskh@hoanghoan.vn
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    Số 1 Nguyễn Trãi, Thanh Xuân, Hà Nội
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Về chúng tôi</h5>
+                        <ul class="footer_item-b">
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Sản phẩm</a></li>
+                            <li><a href="#">Tin tức</a></li>
+                            <li><a href="#">Đối tác</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Kết nối với chúng tôi</h5>
+                        <ul class="footer_icon">
+                            <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-regular fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    
+    <script src="./js/cartTest.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
